@@ -1,0 +1,148 @@
+.content{
+    width: 915px;
+    height: auto;
+    margin-top: 16px;
+}
+
+.left_column{
+    float: left;
+
+ }
+.catalog{
+    border: solid 1px #79878d;
+    background-color:  #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    width: 181px;
+    margin-bottom: 13px;
+    /*height: 25px;*/
+
+}
+.left_menu>a:before,
+.right_menu>a:before{
+
+content: url("../img/ring.png");
+    padding:1px 3px 2px 3px;
+}
+
+.catalog h1{
+    font-family: 'lucida_sans_unicoderegular';
+    color:  #114165;
+    font-size: 12.73px;
+    text-align: left;
+
+}
+
+.center_column{
+    float: left;
+    background-color:  #ffffff;
+    background: -webkit-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+    background: -moz-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+    background: -o-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+    background: -ms-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+    background: linear-gradient(0deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+    /* Layer contains multiple layer styles that cannot be represented in CSS. Use the color picker or extract the layer as an image. */
+    width: 527px;
+    height: 628px;
+    margin-left: 9px;
+}
+.tyres{
+    display: block;
+    float: left;
+    margin: 16px 7px 11px 22px;
+
+}
+.bg_tyres{
+    border-radius: 7px;
+    border: solid 1px #a4aeb1;
+    background-color:  #ffffff;
+    width: 137px;
+    height: 127px;
+
+
+}
+.bg_tyres img{
+    display:block;
+    margin:5px auto;
+}
+.brand{
+    font-family: 'lucida_sans_unicoderegular';
+    color:  #206988;
+    font-size: 14.59px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+.model{
+    font-family: 'lucida_sans_unicoderegular';
+    color:  #1f2528;
+    font-size: 12.77px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+.price{
+    font-family: Arial;
+    color:  #114165;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 11px;
+    text-align: center;
+    padding-top: 4px;
+
+}
+
+
+.right_column{
+    float: right;
+}
+
+.left_menu{
+    border: solid 1px #79878d;
+    background-color:  #ffffff;
+    border-radius: 10px;
+    width: 149px;
+    height: 26px;
+}
+.left_column>ul>li>ul>li a{
+    font-family: 'lucida_sans_unicoderegular';
+    color:  #4b649d;
+    font-size: 12.73px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 25px;
+}
+.left_column>ul>li>ul>li a:hover{
+    font-family: Arial;
+    color:  #0c3256;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 28px;
+    text-decoration: underline;
+    text-align: left;
+    transform: scaleY(1.0003);
+}
+.right_menu{
+    border: solid 1px #79878d;
+    border-radius: 10px;
+    background-color:  #ffffff;
+    width: 135px;
+    height: 26px;
+}
+.right_column>form>ul>li>ul>li label{
+    font-family: 'lucida_sans_unicoderegular';
+    color:  #465961;
+    font-size: 12.73px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+.clear{
+    clear: both;
+}

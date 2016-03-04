@@ -1,0 +1,40 @@
+.logos img{
+    float: left;
+    margin: 0 20px;
+    text-align: center;
+}
+.logos{
+    margin: 42px auto;
+}
+footer{
+    border: solid 1px #242a3c;
+    background-color:  #213a4d;
+    width: 908px;
+    height: 100px;
+    margin-top: 26px;
+}
+.bottom_menu ul li{
+    display: inline-block;
+
+}
+.bottom_menu ul{
+    font-family: Arial;
+    color:  #bec6c9;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    text-align: center;
+    transform: scaleY(1.0003);
+    padding-top: 12px;
+}
+.copyright{
+    font-family: Arial;
+    color:  #7f4740;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 18px;
+}

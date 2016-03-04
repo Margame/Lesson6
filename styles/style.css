@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url("../fonts/lucida_sans_unicode_regular-webfont.eot");
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    min-width: 930px;
+    color: #000;
+
+}
+
+
+.wrapper{
+    width:912px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 19px;
+
+}
+
+
+
+.search{
+    width: 100%;
+    margin-top:11px;
+
+}
+.by_auto{
+    border: solid 1px #9c9c9d;
+    border-radius: 10px;
+    background-color:  #ffffff;
+    box-shadow: 2px 4px 5px 0px rgba(104, 104, 104, 0.75);
+    width: 414px;
+    height: 134px;
+    float: left;
+    display: inline-block;
+}
+.by_tyres{
+    border: solid 1px #9c9c9d;
+    border-radius: 10px;
+    background-color:  #ffffff;
+    box-shadow: 2px 4px 5px 0px rgba(150, 150, 150, 0.75);
+    width: 192px;
+    height: 136px;
+    display: inline-block;
+    margin-left:15px;
+    float: left;
+}
+.by_disk{
+    border: solid 1px #9c9c9d;
+    border-radius: 10px;
+    background-color:  #ffffff;
+    box-shadow: 2px 4px 5px 0 rgba(150, 150, 150, 0.75);
+    width: 268px;
+    height: 135px;
+    display: inline-block;
+    margin-left: 9px;
+}
